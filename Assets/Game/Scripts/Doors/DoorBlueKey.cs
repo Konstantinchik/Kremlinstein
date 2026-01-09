@@ -21,7 +21,7 @@ public class DoorBlueKey : MonoBehaviour
         if(GlobalKeys.blueKeysValue == 0)
         {
             pickUpDisplay.SetActive(false);
-            pickUpDisplay.GetComponent<Text>().text = "FIND BLUE KEY !";
+            pickUpDisplay.GetComponent<Text>().text = "НАЙДИ СИНИЙ КЛЮЧ !";
             pickUpDisplay.SetActive(true);
             return;
         }

@@ -17,7 +17,7 @@ public class RedKeyCollects : MonoBehaviour
         redKeyPickUpSound.Play();
         GetComponent<SphereCollider>().enabled = false;
         pickUpDisplay.SetActive(false);
-        pickUpDisplay.GetComponent<Text>().text = "PICK UP RED KEY";
+        pickUpDisplay.GetComponent<Text>().text = "НАЙДЕН КРАСНЫЙ КЛЮЧ";
         pickUpDisplay.SetActive(true);
     }
 }

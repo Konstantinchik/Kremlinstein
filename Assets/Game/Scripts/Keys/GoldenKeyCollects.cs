@@ -17,7 +17,7 @@ public class GoldenKeyCollects : MonoBehaviour
         goldenKeyPickUpSound.Play();
         GetComponent<SphereCollider>().enabled = false;
         pickUpDisplay.SetActive(false);
-        pickUpDisplay.GetComponent<Text>().text = "PICK UP GOLDEN KEY";
+        pickUpDisplay.GetComponent<Text>().text = "НАЙДЕН ЗОЛОТОЙ КЛЮЧ";
         pickUpDisplay.SetActive(true);
     }
 }

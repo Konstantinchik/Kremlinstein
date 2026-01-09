@@ -17,7 +17,7 @@ public class BlueKeyCollects : MonoBehaviour
         blueKeyPickUpSound.Play();
         GetComponent<SphereCollider>().enabled = false;
         pickUpDisplay.SetActive(false);
-        pickUpDisplay.GetComponent<Text>().text = "PICK UP BLUE KEY";
+        pickUpDisplay.GetComponent<Text>().text = "НАЙДЕН СИНИЙ КЛЮЧ";
         pickUpDisplay.SetActive(true);
     }
 }
