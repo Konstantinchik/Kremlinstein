@@ -110,6 +110,7 @@ MonoBehaviour:
   fakeHandgun: {fileID: 6047940761647972568}
   handgunPickupSound: {fileID: 0}
   pickUpDisplay: {fileID: 0}
+  pistolImage: {fileID: 0}
 --- !u!1 &1125317714506710565
 GameObject:
   m_ObjectHideFlags: 0
@@ -159,10 +160,10 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -2572900413718300615, guid: c151458b89d99a443ab1ef9ae96d4c79, type: 3}
-  - {fileID: -1535515932235354398, guid: c151458b89d99a443ab1ef9ae96d4c79, type: 3}
-  - {fileID: -588176748736619701, guid: c151458b89d99a443ab1ef9ae96d4c79, type: 3}
-  - {fileID: 2722202544849933271, guid: c151458b89d99a443ab1ef9ae96d4c79, type: 3}
+  - {fileID: 2100000, guid: 28b55486302bd484491ccc132a012933, type: 2}
+  - {fileID: 2100000, guid: 28b55486302bd484491ccc132a012933, type: 2}
+  - {fileID: 2100000, guid: 28b55486302bd484491ccc132a012933, type: 2}
+  - {fileID: 2100000, guid: 26d784c3d06dc22489c6efc10f45ce04, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
