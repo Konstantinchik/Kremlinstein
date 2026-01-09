@@ -4,11 +4,8 @@ using UnityEngine;
 
 public class ExtraLife : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject lifeItem;
+    public AudioSource lifePickupSound;
 
     // Update is called once per frame
     void Update()
@@ -19,6 +16,7 @@ public class ExtraLife : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         GlobalLife.lifeValue += 1;
-        this.gameObject.SetActive(false);
+        lifePickupSound.Play();
+        gameObject.SetActive(false);
     }
 }
